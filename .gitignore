@@ -1,0 +1,15 @@
+# Raw data (CC BY-NC-SA 4.0, ~311 MB) is downloaded by scripts/download_data.py, never committed
+data/
+# Large generated artifacts (re-created by scripts/run_all.sh)
+results/models/
+results/*.parquet
+results/*.npy
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+*.duckdb
