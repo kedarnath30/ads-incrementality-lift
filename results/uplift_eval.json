@@ -1,0 +1,363 @@
+{
+  "conversion": {
+    "test_rows": 9785715,
+    "test_overall_uplift": 0.001158669634285387,
+    "models": {
+      "t_learner": {
+        "qini_coefficient": 0.22563324314585365,
+        "top10": {
+          "uplift": 0.006841825482306212,
+          "uplift_vs_overall": 5.904897547889851,
+          "share_incremental_kept": 0.5904894530789134,
+          "share_exposures": 0.5197870422911313
+        },
+        "top20": {
+          "uplift": 0.004025057278307862,
+          "uplift_vs_overall": 3.4738610206094926,
+          "share_incremental_kept": 0.6947722041218986,
+          "share_exposures": 0.6849894856303614
+        },
+        "top30": {
+          "uplift": 0.002824387025356082,
+          "uplift_vs_overall": 2.4376120179398946,
+          "share_incremental_kept": 0.7312834808324584,
+          "share_exposures": 0.767101705664408
+        },
+        "top50": {
+          "uplift": 0.0017725841835372425,
+          "uplift_vs_overall": 1.5298443413773324,
+          "share_incremental_kept": 0.7649222488558897,
+          "share_exposures": 0.8145432090523715
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.9,
+        "frac_for_90pct": 1.0,
+        "top_decile": {
+          "uplift": 0.006841923337426906,
+          "ci_low": 0.006163579407177314,
+          "ci_high": 0.007520267267676497
+        },
+        "bottom_decile": {
+          "uplift": 0.0023261545530045393,
+          "ci_low": 0.0019086194150500827,
+          "ci_high": 0.002743689690958996
+        }
+      },
+      "class_transform": {
+        "qini_coefficient": -0.17950642445559895,
+        "top10": {
+          "uplift": 0.0024717264658836308,
+          "uplift_vs_overall": 2.1332452260286217,
+          "share_incremental_kept": 0.2133244136049389,
+          "share_exposures": 0.08419840448613104
+        },
+        "top20": {
+          "uplift": 0.0014479280397738242,
+          "uplift_vs_overall": 1.2496470062985972,
+          "share_incremental_kept": 0.24992940125971944,
+          "share_exposures": 0.10881538102072832
+        },
+        "top30": {
+          "uplift": 0.0011135904721884821,
+          "uplift_vs_overall": 0.9610940333957163,
+          "share_incremental_kept": 0.2883281609117241,
+          "share_exposures": 0.14454754831603192
+        },
+        "top50": {
+          "uplift": 0.0007135037847793547,
+          "uplift_vs_overall": 0.6157957054077889,
+          "share_incremental_kept": 0.3078978841679063,
+          "share_exposures": 0.21056777596047932
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.99,
+        "frac_for_90pct": 1.0,
+        "top_decile": {
+          "uplift": 0.002471781091534812,
+          "ci_low": 0.001964618503410378,
+          "ci_high": 0.002978943679659246
+        },
+        "bottom_decile": {
+          "uplift": 0.006036240661999774,
+          "ci_low": 0.005545845405966586,
+          "ci_high": 0.0065266359180329615
+        }
+      },
+      "t_learner_visit_proxy": {
+        "qini_coefficient": 0.28170905439443994,
+        "top10": {
+          "uplift": 0.0070410665626548935,
+          "uplift_vs_overall": 6.076854311451333,
+          "share_incremental_kept": 0.6076851206489503,
+          "share_exposures": 0.5878867785974164
+        },
+        "top20": {
+          "uplift": 0.004262252041634851,
+          "uplift_vs_overall": 3.678574043466331,
+          "share_incremental_kept": 0.7357148086932663,
+          "share_exposures": 0.7550452284789212
+        },
+        "top30": {
+          "uplift": 0.0030733305285484368,
+          "uplift_vs_overall": 2.6524648938814406,
+          "share_incremental_kept": 0.7957393326370389,
+          "share_exposures": 0.8361761073467072
+        },
+        "top50": {
+          "uplift": 0.001941851136140009,
+          "uplift_vs_overall": 1.6759316708404564,
+          "share_incremental_kept": 0.8379659210517673,
+          "share_exposures": 0.8959444574251477
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.32,
+        "frac_for_90pct": 0.97,
+        "top_decile": {
+          "uplift": 0.007041043384768381,
+          "ci_low": 0.0063727848315791175,
+          "ci_high": 0.007709301937957644
+        },
+        "bottom_decile": {
+          "uplift": 0.001471055132701929,
+          "ci_low": 0.0010971674175163206,
+          "ci_high": 0.0018449428478875375
+        }
+      },
+      "response_model": {
+        "qini_coefficient": 0.37637239051583915,
+        "top10": {
+          "uplift": 0.008089748133929969,
+          "uplift_vs_overall": 6.981928148069009,
+          "share_incremental_kept": 0.6981924580660728,
+          "share_exposures": 0.5418305016856371
+        },
+        "top20": {
+          "uplift": 0.004783037618098816,
+          "uplift_vs_overall": 4.128042607286217,
+          "share_incremental_kept": 0.8256085214572434,
+          "share_exposures": 0.7334824259821756
+        },
+        "top30": {
+          "uplift": 0.0034286184736863788,
+          "uplift_vs_overall": 2.959099274057518,
+          "share_incremental_kept": 0.8877296310224132,
+          "share_exposures": 0.823966086985547
+        },
+        "top50": {
+          "uplift": 0.0021728452250028927,
+          "uplift_vs_overall": 1.8752931471644214,
+          "share_incremental_kept": 0.9376466694001018,
+          "share_exposures": 0.9531693314196068
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.17,
+        "frac_for_90pct": 0.33,
+        "top_decile": {
+          "uplift": 0.008089717965405214,
+          "ci_low": 0.007314337361856936,
+          "ci_high": 0.008865098568953492
+        },
+        "bottom_decile": {
+          "uplift": 0.0003559249825588059,
+          "ci_low": 0.00017365133718920097,
+          "ci_high": 0.0005381986279284108
+        }
+      },
+      "random": {
+        "qini_coefficient": -0.010094626349166302,
+        "top10": {
+          "uplift": 0.0010971017949877922,
+          "uplift_vs_overall": 0.9468633357811548,
+          "share_incremental_kept": 0.09468628519824054,
+          "share_exposures": 0.09981641576821657
+        },
+        "top20": {
+          "uplift": 0.0011922824643726556,
+          "uplift_vs_overall": 1.0290098480987633,
+          "share_incremental_kept": 0.20580196961975264,
+          "share_exposures": 0.19984311892920326
+        },
+        "top30": {
+          "uplift": 0.0010944905910375956,
+          "uplift_vs_overall": 0.9446097132877966,
+          "share_incremental_kept": 0.2833828657216127,
+          "share_exposures": 0.2996795620681598
+        },
+        "top50": {
+          "uplift": 0.0011182826321834826,
+          "uplift_vs_overall": 0.9651436432725595,
+          "share_incremental_kept": 0.482571870950185,
+          "share_exposures": 0.4990153209386161
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.81,
+        "frac_for_90pct": 0.9
+      }
+    }
+  },
+  "visit": {
+    "test_rows": 9785715,
+    "test_overall_uplift": 0.01021472959199448,
+    "models": {
+      "t_learner": {
+        "qini_coefficient": 0.3133689000378759,
+        "top10": {
+          "uplift": 0.05882294499266974,
+          "uplift_vs_overall": 5.758639468906807,
+          "share_incremental_kept": 0.575863652653649,
+          "share_exposures": 0.5878867785974164
+        },
+        "top20": {
+          "uplift": 0.03755454568601649,
+          "uplift_vs_overall": 3.6765090399895515,
+          "share_incremental_kept": 0.7353018079979102,
+          "share_exposures": 0.7550452284789212
+        },
+        "top30": {
+          "uplift": 0.02785148962251434,
+          "uplift_vs_overall": 2.726600775055484,
+          "share_incremental_kept": 0.8179800932012873,
+          "share_exposures": 0.8361761073467072
+        },
+        "top50": {
+          "uplift": 0.018107241592412275,
+          "uplift_vs_overall": 1.772659905417696,
+          "share_incremental_kept": 0.8863300432827051,
+          "share_exposures": 0.8959444574251477
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.27,
+        "frac_for_90pct": 0.56,
+        "top_decile": {
+          "uplift": 0.05882261984123108,
+          "ci_low": 0.05641163083960893,
+          "ci_high": 0.06123360884285323
+        },
+        "bottom_decile": {
+          "uplift": 0.008032007721262557,
+          "ci_low": 0.006421273132114477,
+          "ci_high": 0.009642742310410637
+        }
+      },
+      "class_transform": {
+        "qini_coefficient": 0.2260698946489208,
+        "top10": {
+          "uplift": 0.05602146675079159,
+          "uplift_vs_overall": 5.484380790138283,
+          "share_incremental_kept": 0.5484377987900128,
+          "share_exposures": 0.3914783537501252
+        },
+        "top20": {
+          "uplift": 0.034258082291761194,
+          "uplift_vs_overall": 3.3537923821899356,
+          "share_incremental_kept": 0.670758476437987,
+          "share_exposures": 0.4476284255148703
+        },
+        "top30": {
+          "uplift": 0.024500609521870303,
+          "uplift_vs_overall": 2.398556839044667,
+          "share_incremental_kept": 0.71956692915941,
+          "share_exposures": 0.4928735939116793
+        },
+        "top50": {
+          "uplift": 0.016342678357671406,
+          "uplift_vs_overall": 1.5999129698430334,
+          "share_incremental_kept": 0.7999565666688888,
+          "share_exposures": 0.5978770987015588
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.51,
+        "frac_for_90pct": 0.9600000000000001,
+        "top_decile": {
+          "uplift": 0.05602119506085709,
+          "ci_low": 0.05384160082669913,
+          "ci_high": 0.05820078929501506
+        },
+        "bottom_decile": {
+          "uplift": 0.013389490671102691,
+          "ci_low": 0.012228108251925366,
+          "ci_high": 0.014550873090280017
+        }
+      },
+      "response_model": {
+        "qini_coefficient": 0.34098397843749995,
+        "top10": {
+          "uplift": 0.050375795665825784,
+          "uplift_vs_overall": 4.931681765252646,
+          "share_incremental_kept": 0.49316792454154323,
+          "share_exposures": 0.4890083113588571
+        },
+        "top20": {
+          "uplift": 0.03749664736178798,
+          "uplift_vs_overall": 3.6708409188996027,
+          "share_incremental_kept": 0.7341681837799207,
+          "share_exposures": 0.7225508194532527
+        },
+        "top30": {
+          "uplift": 0.028737856994971944,
+          "uplift_vs_overall": 2.813374229455322,
+          "share_incremental_kept": 0.8440121250875589,
+          "share_exposures": 0.8238425848659835
+        },
+        "top50": {
+          "uplift": 0.019459538486327824,
+          "uplift_vs_overall": 1.9050468552372364,
+          "share_incremental_kept": 0.9525235249567716,
+          "share_exposures": 0.9123101572148603
+        },
+        "peak_share_kept": 1.000244716604819,
+        "peak_at_frac": 0.9600000000000001,
+        "frac_for_80pct": 0.26,
+        "frac_for_90pct": 0.39,
+        "top_decile": {
+          "uplift": 0.05037535234391849,
+          "ci_low": 0.04768096128519402,
+          "ci_high": 0.053069743402642956
+        },
+        "bottom_decile": {
+          "uplift": 0.00010785625783936204,
+          "ci_low": -3.5893758560779054e-06,
+          "ci_high": 0.00021930189153480196
+        }
+      },
+      "random": {
+        "qini_coefficient": 0.0026275355988970572,
+        "top10": {
+          "uplift": 0.010622739302969836,
+          "uplift_vs_overall": 1.0399432708718126,
+          "share_incremental_kept": 0.10399427395139758,
+          "share_exposures": 0.09981641576821657
+        },
+        "top20": {
+          "uplift": 0.010507520946019241,
+          "uplift_vs_overall": 1.0286636421833653,
+          "share_incremental_kept": 0.20573272843667303,
+          "share_exposures": 0.19984311892920326
+        },
+        "top30": {
+          "uplift": 0.010435748263523337,
+          "uplift_vs_overall": 1.0216372513377225,
+          "share_incremental_kept": 0.30649112320087707,
+          "share_exposures": 0.2996795620681598
+        },
+        "top50": {
+          "uplift": 0.010193708692745655,
+          "uplift_vs_overall": 0.9979420992930347,
+          "share_incremental_kept": 0.49897110063625594,
+          "share_exposures": 0.4990153209386161
+        },
+        "peak_share_kept": 1.0,
+        "peak_at_frac": 1.0,
+        "frac_for_80pct": 0.8,
+        "frac_for_90pct": 0.9
+      }
+    }
+  }
+}
